@@ -22,7 +22,8 @@ body{
 .container{
 	margin: auto;
     width: 1037px;
-    margin-right: 222px;
+    margin-right: 175px;
+    m
 
 }
 
@@ -481,14 +482,73 @@ button{
     margin-top: 6px;
     margin-left: 5px;
 }
+.sk8arrow{
+	width: 1000px; 
+}
+.arrow {
+    width:120px;
+}
 
+.line {
+    margin-top: -1151px;
+    margin-left: -179px;
+    width: 148px;
+    background: gray;
+    height: 52px;
+    float: left;
+   
+    
+     
+}
 
+.point {    
+    width: 0px;
+    margin-left: -31px;
+    margin-top: -1151px;
+    height: 0;
+    border-top: 26px solid transparent;
+    border-bottom: 27px solid transparent;
+    border-left: 30px solid gray;
+    float: left;
+    
+    
+    /* float: right; */
+}
 
+.arrowshadow{
+	width: 200px; 
+}
+.shdarrow {
+    width:120px;
+}
 
+.shdline {
+    margin-top: -1165px;
+    /* padding-bottom: 34px; */
+    margin-left: -179px;
+    width: 148px;
+    background: #B4292E;
+    height: 63px;
+    float: left;
+    
+    
+}
+.shdpoint {    
+    width: 0px;
+    margin-left: -31px;
+    margin-top: -1165px;
+    /* height: 37px; */
+    border-top: 35px solid transparent;
+    border-bottom: 27px solid transparent;
+    border-left: 30px solid #B4292E;
+    float: left;
+}
 
-
-
-
+.shd{
+	color: white;
+	font-size: 18px;
+    margin-top: 23px;
+}
 
 
 
