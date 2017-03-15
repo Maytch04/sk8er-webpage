@@ -12,8 +12,8 @@ body{
 	margin:auto;
 }
 
-a{
-	color: #CBD4DB;
+.graylink{
+	color: #4f4949;
 }
 .container{
 	margin:auto;
@@ -216,8 +216,62 @@ ul.navlinks{
     font-weight: normal;
     color: #478CC1;
     border-left: 1px solid  #478CC1; 
+    width: 400px;
 }
 
 .quote p{
 	border-left: 2px solid gray; 
+}
+
+.botpar p{
+    color: gray; 
+}
+
+.mainsocial{
+    display: flex;
+    flex-direction: row; 
+    margin-left: -63px; 
+}
+.mainsocial ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    width: auto;  
+}
+
+.mainsocial>ul>li{
+    background: #A3B3BF; 
+}
+.mainsocial>ul>li>img{
+    margin-left: 89px;
+    background: gray;
+}
+
+.aside{
+    display: flex;
+    flex-direction: row; 
+    flex-wrap: wrap; 
+}
+
+.authorimage{
+    display: flex; 
+
+    background-image: url(images/waveimage.jpeg);
+    width: 20px;
+    height: 20px;
+    height: 100p;
+    margin-height: 30px;
+    margin-top: 170px;
+    border-radius: 50%;
+}
+.surferimage{
+    background-image: url(images/tumblr_static_flat_550x550_075_f.jpg);
+    background-repeat: no-repeat;
+    margin-top: 220px;
+    background-position-x: -135px;
+    background-position-y: 43px;
+    background-repeat-y: 10px;
+    background-repeat-y: 2px;
+    width: 300px;
+    height: 350px;     
 }
